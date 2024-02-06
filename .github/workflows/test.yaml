@@ -11,5 +11,8 @@ jobs:
       - name: Install pytest
         run: pip install pytest
       
+      - name: Install numpy
+        run: pip install numpy
+      
       - name: Run pytest
         run: pytest test_sequence.py
